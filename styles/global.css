@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    border: solid red 1px;
 }
 
 :root {
@@ -31,4 +33,20 @@
 
     --Typo-Text-Md: 400 16px/140% var(--Font-Family-Maven-Pro);
     --Typo-Text-Sm: 400 14px/140% var(--Font-Family-Maven-Pro);
+}
+
+p {
+    color: var(--color-gray-500);
+}
+
+h1 {
+    font: var(--Typo-Title-Lg);
+}
+
+h2 {
+    font: var(--Typo-Title-Md);
+}
+
+h3 {
+    font: var(--Typo-Title-Sm);
 }
