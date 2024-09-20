@@ -1,0 +1,48 @@
+.projects{
+    padding: 72px 120px 144px 120px;
+    display: grid;
+    justify-content: center;
+    .header {
+        display: grid;
+        gap: 8px;
+        text-align: center;
+
+        span {
+            color: var(--color-red);
+            font: var(--Typo-Subtitle);
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(auto, 330px));
+        gap: 12px;
+    }
+
+    .card {
+        display: grid;
+        padding: 12px;
+        background-color: var(--color-gray-300);
+        border-radius: 12px;
+        gap: 20px;
+
+        img {
+            width: 306px;
+            height: 156px;
+            border-radius: 8px;
+        }
+        article {
+            display: grid;
+            padding: 4px;
+            gap: 8px;
+        }
+        h3 {
+            color: var(--color-gray-600);
+        }
+
+        p {
+            font: var(--Typo-Text-Sm);
+        }
+    }
+}
+
