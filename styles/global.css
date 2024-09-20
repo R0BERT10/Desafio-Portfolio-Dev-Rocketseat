@@ -53,3 +53,7 @@ h2 {
 h3 {
     font: var(--Typo-Title-Sm);
 }
+
+i {
+    font-size: 48px;
+}

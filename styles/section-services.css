@@ -1,0 +1,47 @@
+.services {
+    display: grid;
+    justify-content: center;
+    padding-top: 88px;
+    padding-bottom: 120px;
+    gap: 56px;
+    background-color: var(--color-gray-100);
+
+    .header {
+        display: grid;
+        gap: 8px;
+        text-align: center;
+
+        span {
+            color: var(--color-red);
+            font: var(--Typo-Subtitle);
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+    }
+
+    .card {
+        display: grid;
+        width: 280px;
+        padding: 20px;
+        border: solid var(--color-gray-200) 2px;
+        border-radius: 12px;
+        gap: 20px;
+
+
+        article {
+            display: grid;
+            gap: 8px;
+        }
+        h3 {
+            color: var(--color-gray-600);
+        }
+
+        p {
+            font: var(--Typo-Text-Sm);
+        }
+    }
+}
