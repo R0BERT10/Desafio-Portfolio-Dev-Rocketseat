@@ -1,7 +1,10 @@
 .projects{
-    padding: 72px 120px 144px 120px;
+    padding-top: 72px;
+    padding-bottom: 144px;
     display: grid;
     justify-content: center;
+    gap: 56px;
+
     .header {
         display: grid;
         gap: 8px;
@@ -15,12 +18,13 @@
 
     .grid {
         display: grid;
-        grid-template-columns: repeat(3, minmax(auto, 330px));
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 12px;
     }
 
     .card {
         display: grid;
+        width: 330px;
         padding: 12px;
         background-color: var(--color-gray-300);
         border-radius: 12px;
