@@ -48,5 +48,9 @@
             font: var(--Typo-Text-Sm);
         }
     }
+
+    .card:hover {
+        border: solid var(--color-gray-400) 1.5px;
+    }
 }
 

@@ -53,4 +53,8 @@ footer {
             font-size: 20px;
         }
     }
+
+    .cardButton:hover {
+        border: solid var(--color-blue) 1.5px;
+    }
 }
