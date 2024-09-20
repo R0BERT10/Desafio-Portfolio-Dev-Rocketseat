@@ -11,16 +11,19 @@ header {
 }
 
 .info-container {
-    margin: 120px 163px 0 163px;
+    margin-top: 120px;
     display: grid;
+    justify-items: center;
+    width: 1040px;
     gap: 80px;
 }
 
 .profile {
     display: grid;
     justify-items: center;
+    width: 680px;
     gap: 56px;
-    margin: 0 160px;
+
     div {
         display: flex;
         position: relative;
@@ -64,8 +67,7 @@ header {
 
 .tags-group {
     display: flex;
-    margin: 0 120px;
-    justify-content: space-between;
+    gap: 16px;
 
     .tag {
         display: flex;
@@ -75,5 +77,11 @@ header {
         color: var(--color-gray-500);
         font: var(--Typo-Text-Md);
         padding: 8px 16px;
+        gap: 8px;
+    }
+
+    img {
+        width: 24px;
+        aspect-ratio: 1/1;
     }
 }
